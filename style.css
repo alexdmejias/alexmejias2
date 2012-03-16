@@ -1,0 +1,259 @@
+/*
+Theme Name: alexmejias
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Description: my test theme
+Author: the WordPress team
+Author URI: http://alexismejias.com/
+Version: 1.3
+-------------------------------------------------------------- */
+/*==================START RESET====================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*==================END RESET====================================*/
+body {
+  background: #1a1a1a;
+  color: #FFF;
+  text-align: left;
+  font-family: 'Lato', Arial, Gadget, sans-serif;
+  /*END #CONT*/
+
+}
+body h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+body a:visited, body h1 a:hover {
+  color: #fff;
+}
+body h2 {
+  font-size: 30px;
+}
+body #cont {
+  width: 960px;
+  margin: 0 15%;
+  height: auto;
+  /*END #LEFT*/
+
+  /*END #RIGHT*/
+
+}
+body #cont #left {
+  width: auto;
+  height: 600px;
+  background: #96C63F;
+  color: #FFF;
+  float: left;
+  padding: 20px 20px 0 20px;
+  /*END #NAV*/
+
+}
+body #cont #left h1 {
+  font-size: 32px;
+  margin-bottom: 2px;
+  font-weight: 900;
+}
+body #cont #left p {
+  font-size: 18px;
+  font-weight: 400;
+}
+body #cont #left p.telephone {
+  font-size: 15px;
+}
+body #cont #left a, body #cont #left a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+body #cont #left a:hover {
+  color: #1a1a1a;
+}
+body #cont #left #nav {
+  margin: 36px 0 0 0;
+}
+body #cont #left #nav a {
+  font-weight: 900;
+  display: inline;
+}
+body #cont #left #nav a:visited {
+  color: #fff;
+}
+body #cont #left #nav a:hover {
+  color: #1a1a1a;
+}
+body #cont #left #nav li {
+  padding-bottom: 15px;
+}
+body #cont #left #nav .children li {
+  padding-bottom: 10px;
+}
+body #cont #left #nav .children li a {
+  font-weight: 400;
+}
+body #cont #right {
+  width: 550px;
+  height: 100%;
+  background: #1A1A1A;
+  float: left;
+  /*END #POST*/
+
+}
+body #cont #right img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+body #cont #right img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+body #cont #right img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body #cont #right a img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+body #cont #right a img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+body #cont #right a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body #cont #right #post {
+  margin: 126px 0 0 50px;
+}
+body #cont #right #post h1.title {
+  margin: 0 0 25px 0;
+}
+body #cont #right #post p {
+  width: 570px;
+}
+body #cont #right #post div.entry {
+  margin-top: 25px;
+}
+body #cont #right #post div.entry img {
+  padding: 15px;
+}
+/*END BODY*/
