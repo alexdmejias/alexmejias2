@@ -1,5 +1,5 @@
 /*
-Theme Name: alexmejias
+Theme Name: alexmejias2
 Theme URI: http://wordpress.org/extend/themes/twentyeleven
 Description: my test theme
 Author: the WordPress team
@@ -149,15 +149,16 @@ body h2 {
 }
 body #cont {
   width: 960px;
-  margin: 0 15%;
-  height: auto;
+  margin: 0 auto;
+  /*height:auto;*/
+
   /*END #LEFT*/
 
   /*END #RIGHT*/
 
 }
 body #cont #left {
-  width: auto;
+  width: 188px;
   height: 600px;
   background: #96C63F;
   color: #FFF;
@@ -208,7 +209,7 @@ body #cont #left #nav .children li a {
   font-weight: 400;
 }
 body #cont #right {
-  width: 550px;
+  width: 732px;
   height: 100%;
   background: #1A1A1A;
   float: left;
@@ -240,6 +241,28 @@ body #cont #right a img.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+body #cont #right #projects {
+  margin: 126px 0 0 50px;
+}
+body #cont #right #projects ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body #cont #right #projects ul li {
+  float: left;
+  padding-right: 0;
+  width: 33%;
+  padding-bottom: 30px;
+}
+body #cont #right #projects ul li img {
+  padding-bottom: 5px;
+}
+body #cont #right #projects ul li p {
+  font-size: 12px;
+  line-height: 20px;
 }
 body #cont #right #post {
   margin: 126px 0 0 50px;

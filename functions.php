@@ -11,4 +11,9 @@
 // }
 function my_function_admin_bar(){ return false; }
 add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+
+add_theme_support('post-thumbnails');
+
+set_post_thumbnail_size(200,200);
+add_image_size('project',200,150,true);
 ?>
