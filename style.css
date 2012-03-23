@@ -262,7 +262,6 @@ body #cont #right #projects ul li img {
 }
 body #cont #right #projects ul li p {
   font-size: 12px;
-  line-height: 20px;
 }
 body #cont #right #post {
   margin: 126px 0 0 50px;
@@ -272,6 +271,7 @@ body #cont #right #post h1.title {
 }
 body #cont #right #post p {
   width: 570px;
+  line-height: 20px;
 }
 body #cont #right #post div.entry {
   margin-top: 25px;
