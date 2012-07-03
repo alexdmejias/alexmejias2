@@ -5,7 +5,7 @@ Template Name: Projects
 ?>
 
 <?php get_header(); ?>
-<body>
+<body><!-- template:Projects -->
 	<div id="cont">
 		<?php get_sidebar(); ?>
 

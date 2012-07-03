@@ -7,6 +7,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
 </head>
-
+<body>
+	<header>
+		<h1><a href="<?php bloginfo('wpurl'); ?>">Alex Mejias</a></h1>
+		<h1 id="title"><a href="#">Project Name</a></h1>
+	</header>
 
 

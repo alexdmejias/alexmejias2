@@ -5,7 +5,7 @@ Template Name: Page
 ?>
 
 <?php get_header(); ?>
-<body>
+<body><!-- Template:Page -->
 	<div id="cont">
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>
