@@ -10,7 +10,7 @@
 <body>
 	<header>
 		<h1><a href="<?php bloginfo('wpurl'); ?>">Alex Mejias</a></h1>
-		<h1 id="title"><a href="#">Project Name</a></h1>
+		<h1 id="title"><a href="#"><?php wp_title();?></a></h1>
 	</header>
 
 
