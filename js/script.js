@@ -1,10 +1,10 @@
 jQuery(document).ready(function($){
 
 	/* prepend menu icon */
-	$('#nav-wrap').prepend('<div id="menu-icon"></div>');
+	$('aside nav').prepend('<div id="menu-icon"></div>');
 	/* toggle nav */
 	$("#menu-icon").on("click", function(){
-		$("#nav").slideToggle();
+		$("#projects").slideToggle();
 		$(this).toggleClass("active");
 	});
 
@@ -14,5 +14,21 @@ jQuery(document).ready(function($){
 		}
 		$('#size').text($(window).innerWidth() +' X '+$(window).innerHeight()).css({'position':'absolute','bottom':0,'right':0,'background-color':'red'});
 	});
+
+	$(window).on('resize load',function() {
+		var win_size= $(window).innerWidth();
+		if (win_size<=480){
+			$('header p a').text('email').next().text('cellphone');
+		}
+		else if(win_size>=481){
+			$('header p a').text('alme1304@gmail').next().text('(516)784-6801');
+		}
+
+
+	});
+
+
+
+
 
 });

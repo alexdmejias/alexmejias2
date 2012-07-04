@@ -1,4 +1,4 @@
-/*
+;/*
 Theme Name: alexmejias2
 Theme URI: http://wordpress.org/extend/themes/twentyeleven
 Description: my test theme
@@ -20,21 +20,25 @@ a{
 
 
 header{
-	margin-top:20px;
+	// margin:20px !important;
+	margin-right:20px !important;
 	width:100%;
+	text-align:center;
 	// background-color: #ccc;
 	h1{
-		margin-left: 20px;
-		display: inline;
+		// display: inline;
 	}
+
 } //end header
 
 aside{
 	// width:20%;
 	// background-color: #ccc;
-	padding:20px;
+	// padding:20px;
 	ul{
 		padding: 0px;
 	}
 }
+@media screen and (max-width:480px){
 
+}
