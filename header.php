@@ -6,8 +6,10 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
-<body>
+<body onload="window.top.scrollTo(0,1);">
 	<header>
 		<h1><a href="<?php bloginfo('wpurl'); ?>">Alex Mejias</a></h1>
 		<p class="contact_info">

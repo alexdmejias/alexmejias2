@@ -22,9 +22,13 @@ ul{
 	margin:0;
 }
 
+body{
+	background:#fff url(img/noise.png) repeat center center;
+}
+
 header{
 	// margin:20px !important;
-	margin-right:20px !important;
+	// margin-right:20px !important;
 	width:100%;
 	text-align:center;
 	// background-color: #ccc;
@@ -45,13 +49,16 @@ header{
 	}
 } //end header
 
-aside{
-	// width:20%;
-	// background-color: #ccc;
-	// padding:20px;
-	ul{
-		padding: 0px;
-	}
+// aside{
+// 	// width:20%;
+// 	// background-color: #ccc;
+// 	// padding:20px;
+// 	ul{
+// 		padding: 0px;
+// 	}
+// }
+#content{
+	padding:10px;
 }
 @media screen and (max-width:480px){
 

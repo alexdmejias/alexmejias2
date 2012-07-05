@@ -491,8 +491,10 @@ ul {
   padding: 0;
   margin: 0; }
 
+body {
+  background: white url(img/noise.png) repeat center center; }
+
 header {
-  margin-right: 20px !important;
   width: 100%;
   text-align: center; }
   header h1 {
@@ -506,5 +508,5 @@ header {
       float: left;
       padding: 0 20px; }
 
-aside ul {
-  padding: 0px; }
+#content {
+  padding: 10px; }
