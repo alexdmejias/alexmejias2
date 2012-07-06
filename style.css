@@ -1281,8 +1281,11 @@ header {
   padding: 10px;
   width: 90%;
   margin: 0 auto; }
-  #content .gallery-item {
+  #content p {
     width: 100%; }
+    #content p img {
+      max-width: 100%;
+      height: auto; }
 
 footer {
   width: 90%;

@@ -63,8 +63,12 @@ header{
 	width:90%;
 	margin:0 auto;
 
-	.gallery-item{
+	p{
 		width:100%;
+		img{
+			max-width:100%;
+			height:auto;
+		}
 	}
 }
 
