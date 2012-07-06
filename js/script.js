@@ -18,10 +18,10 @@ jQuery(document).ready(function($){
 	$(window).on('resize load',function() {
 		var win_size= $(window).innerWidth();
 		if (win_size<=480){
-			$('header p a').text('email').next().text('cellphone');
+			$('header p a').text('cellphone').next().text('email');
 		}
 		else if(win_size>=481){
-			$('header p a').text('alme1304@gmail').next().text('(516)784-6801');
+			$('header p a').text('(516)784-6801').next().text('alme1304@gmail.com');
 		}
 
 

@@ -11,5 +11,5 @@
 			<?php endwhile; ?>
 		<?php endif; ?>
 <!--===================END OF ACTUAL SECTIONS ===================-->
-		</div>
+	</div>
 <?php get_footer(); ?>
