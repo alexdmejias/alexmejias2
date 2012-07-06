@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Alexis Mejias</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/inc/zocial.css" />
 	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'> -->
 	<link href='http://fonts.googleapis.com/css?family=Dosis:700,200,500' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
