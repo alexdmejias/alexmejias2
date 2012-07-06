@@ -539,11 +539,28 @@ footer {
   width: 90%;
   margin: 0 auto 20px;
   text-align: center; }
+  footer a, footer a:visited {
+    font-size: 13px;
+    padding: 4px 8px;
+    color: #fff; }
   footer h3 {
     margin-bottom: 10px; }
-  footer .zocial {
-    font-size: 12px;
-    margin: 3px; }
+  footer .round {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: #ecebeb 1px solid; }
+  footer .twitter {
+    background: #46C0FB; }
+  footer .facebook {
+    background: #4863AE; }
+  footer .linkedin {
+    background: #0083A8; }
+  footer .googleplus {
+    background: #DD4B39; }
+  footer .reddit, footer a.reddit:visited {
+    background: #fff;
+    color: #000; }
 
 @media screen and (min-width:481px) {
   aside nav {

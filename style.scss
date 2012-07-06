@@ -89,13 +89,29 @@ footer{
 	margin:0 auto 20px;
 	text-align:center;
 
+	a,a:visited{
+		font-size:13px;
+		padding:4px 8px;
+		color:#fff;
+	}
+
 	h3{
 		margin-bottom:10px;
 	}
 
-	.zocial{
-		font-size:12px;
-		margin:3px;
+	.round{
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		border:$grey_light 1px solid;
+	}
+	.twitter{background:#46C0FB;}
+	.facebook{background:#4863AE;}
+	.linkedin{background:#0083A8;}
+	.googleplus{background:#DD4B39;}
+	.reddit, a.reddit:visited{
+		background:#fff;
+		color:#000;
 	}
 }
 
