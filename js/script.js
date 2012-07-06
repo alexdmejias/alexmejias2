@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
 	/* prepend menu icon */
-	$('aside nav').prepend('<div id="menu-icon">Dummy Title</div>');
+	$('aside nav').prepend('<div id="menu-icon">Projects</div>');
 	/* toggle nav */
 	$("#menu-icon").on("click", function(){
 		$("#projects").slideToggle();
