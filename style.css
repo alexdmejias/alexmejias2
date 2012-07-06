@@ -1273,7 +1273,7 @@ header {
   color: #fff;
   width: 100%;
   text-align: center;
-  background: #BADA55;
+  background: #bada55;
   margin-bottom: 10px;
   padding: 3px 0; }
   header a, header a:hover, header a:visited {
@@ -1297,6 +1297,8 @@ header {
     margin: 5px 0; }
   #content p {
     width: 100%; }
+    #content p a {
+      background: #ecebeb; }
     #content p img {
       max-width: 100%;
       height: auto;
