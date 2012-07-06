@@ -31,6 +31,7 @@
 		background: #ecebeb url(img/menu-icon.png) no-repeat 10px center;
 		cursor: pointer;
 		display: block; /* show menu icon */
+		font-weight:500;
 
 		&:hover {
 			background-color: #f8f8f8;
@@ -60,8 +61,11 @@
 				border: none;
 				padding:5px;
 			}
-			&:hover{
+			&:hover,&.current_page_item{
 				background-color:#ecebeb;
+				a{
+					margin-left:7px;
+				}
 			}
 		}
 	}
