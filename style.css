@@ -593,9 +593,16 @@ footer {
         background: #ecebeb; } }
 @media screen and (min-width:721px) {
   header {
-    height: 80px; }
+    height: 90px;
+    text-align: left; }
     header #header_content, header #global {
       float: left; }
+    header #header_content {
+      margin-left: 25px; }
+      header #header_content p {
+        margin-top: 0; }
+      header #header_content a {
+        display: block; }
 
   aside {
     width: 25%;

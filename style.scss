@@ -157,9 +157,19 @@ footer{
 }
 @media screen and (min-width:721px){
 	header{
-		height:80px;
+		height:90px;
+		text-align:left;
 		#header_content,#global{
 			float:left;
+		}
+		#header_content{
+			margin-left: 25px;
+			p{
+				margin-top:0;
+			}
+			a{
+				display:block;
+			}
 		}
 		#global{
 			// margin-left:250px;
