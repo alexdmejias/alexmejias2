@@ -561,6 +561,13 @@ footer {
   footer .reddit, footer a.reddit:visited {
     background: #fff;
     color: #000; }
+  footer #share {
+    width: 100%;
+    text-align: center; }
+    footer #share li {
+      display: inline-block;
+      margin: 5px 2px;
+      list-style-type: none; }
 
 @media screen and (min-width:481px) {
   aside nav {

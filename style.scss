@@ -113,6 +113,15 @@ footer{
 		background:#fff;
 		color:#000;
 	}
+	#share{
+		width:100%;
+		text-align: center;
+		li{
+			display: inline-block;
+			margin:5px 2px;
+			list-style-type: none;
+		}
+	}
 }
 
 @media screen and (min-width:481px){
