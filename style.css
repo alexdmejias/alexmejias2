@@ -435,7 +435,9 @@ table {
     padding: 4px 15px;
     display: block;
     color: #000;
-    background: #ecebeb; }
+    background: #f8f8f8; }
+    #projects li a:hover {
+      background: #ecebeb; }
 
 @media screen and (max-width: 480px) {
   aside nav {
@@ -445,13 +447,13 @@ table {
   #menu-icon {
     padding: 5px;
     text-align: center;
-    background: #ecebeb url(img/menu-icon.png) no-repeat 10px center;
+    background: #f8f8f8 url(img/menu-icon.png) no-repeat 10px center;
     cursor: pointer;
     display: block;
     /* show menu icon */
     font-weight: 500; }
     #menu-icon:hover {
-      background-color: #f8f8f8; }
+      background-color: #ecebeb; }
     #menu-icon .active {
       background-color: #bbb; }
 
@@ -498,7 +500,7 @@ ul {
   margin: 0; }
 
 body {
-  background: white url(img/noise.png) repeat center center; }
+  background: white url(img/noise4.png) repeat center center; }
 
 header {
   color: #fff;
@@ -506,10 +508,13 @@ header {
   text-align: center;
   background: #bada55;
   margin-bottom: 10px;
-  padding: 3px 0; }
-  header a, header a:hover, header a:visited {
+  padding: 3px 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); }
+  header a, header a:visited {
     color: #fff;
     margin: 0 3px; }
+  header a:hover {
+    color: #ecebeb; }
   header h1 {
     margin: 0 0 4px 0; }
   header p {
@@ -529,7 +534,7 @@ header {
   #content p {
     width: 100%; }
     #content p a {
-      background: #ecebeb; }
+      background: #f8f8f8; }
     #content p img {
       max-width: 100%;
       height: auto;
@@ -543,13 +548,21 @@ footer {
     font-size: 13px;
     padding: 4px 8px;
     color: #fff; }
+  footer a:hover {
+    color: #ecebeb; }
+  footer #to_top {
+    position: absolute;
+    right: 20px;
+    color: #000; }
+    footer #to_top:hover {
+      color: #ecebeb; }
   footer h3 {
     margin-bottom: 10px; }
   footer .round {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: #ecebeb 1px solid; }
+    border: #f8f8f8 1px solid; }
   footer .twitter {
     background: #46C0FB; }
   footer .facebook {
@@ -575,4 +588,6 @@ footer {
     text-align: center; }
     aside nav ul li {
       display: inline-block;
-      margin: 2px; } }
+      margin: 2px; }
+      aside nav ul li a:hover {
+        background: #ecebeb; } }

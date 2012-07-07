@@ -28,7 +28,7 @@ ul{
 }
 
 body{
-	background:#fff url(img/noise.png) repeat center center;
+	background:#fff url(img/noise4.png) repeat center center;
 }
 
 header{
@@ -40,11 +40,14 @@ header{
 	background:$header_color;
 	margin-bottom:10px;
 	padding:3px 0;
-	a,a:hover,a:visited{
+	box-shadow:0 1px 5px rgba(0,0,0,0.5);
+	a,a:visited{
 		color:#fff;
-		margin:0 3px
+		margin:0 3px;
 	}
-	// background-color: #ccc;
+	a:hover{
+		color:$grey_dark;
+	}
 	h1{
 		margin:0 0 4px 0;
 	}
@@ -94,7 +97,17 @@ footer{
 		padding:4px 8px;
 		color:#fff;
 	}
-
+	a:hover{
+		color:$grey_dark;
+	}
+	#to_top{
+		position: absolute;
+		right:20px;
+		color:#000;
+		&:hover{
+			color:$grey_dark;
+		}
+	}
 	h3{
 		margin-bottom:10px;
 	}
@@ -129,11 +142,13 @@ footer{
 		nav{
 			width:100%;
 			text-align: center;
-
 			ul{
 				li{
 					display:inline-block;
 					margin:2px;
+					a:hover{
+						background:$grey_dark;
+					}
 				}
 			}
 		}

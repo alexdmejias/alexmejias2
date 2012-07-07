@@ -13,6 +13,9 @@
 			display: block;
 			color: #000;
 			background: $grey_light;
+			&:hover{
+				background:$grey_dark;
+			}
 
 		}
 	}
@@ -62,7 +65,7 @@
 				padding:5px;
 			}
 			&:hover,&.current_page_item{
-				background-color:$grey_light;
+				background-color:$grey_dark;
 				a{
 					margin-left:7px;
 				}
