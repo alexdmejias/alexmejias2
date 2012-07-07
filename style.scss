@@ -137,7 +137,7 @@ footer{
 	}
 }
 
-@media screen and (min-width:481px){
+@media screen and (min-width:481px) and (max-width:720px){
 	aside{
 		nav{
 			width:100%;
@@ -153,5 +153,26 @@ footer{
 			}
 		}
 
+	}
+}
+@media screen and (min-width:721px){
+	header{
+		height:80px;
+		#header_content,#global{
+			float:left;
+		}
+		#global{
+			// margin-left:250px;
+		}
+	}
+	aside{
+		width:25%;
+		float:left;
+		nav {
+			float:left
+			li{
+				display:list-item;
+			}
+		}
 	}
 }
