@@ -598,15 +598,23 @@ footer {
     header #header_content, header #global {
       float: left; }
     header #header_content {
-      margin-left: 25px; }
+      margin-left: 2.3%; }
       header #header_content p {
         margin-top: 0; }
       header #header_content a {
         display: block; }
 
   aside {
-    width: 25%;
-    float: left; }
-    aside nav float:left
-    li {
-      display: list-item; } }
+    float: left;
+    width: auto;
+    margin-left: 1.5%; }
+    aside nav {
+      padding: 5px 0;
+      background: #f8f8f8; }
+      aside nav #projects li {
+        display: list-item;
+        margin-right: 0; }
+
+  footer {
+    float: left;
+    width: 100%; } }
