@@ -12,8 +12,11 @@ Version: 1.3
 // @import 'css/inc/zocial';
 
 // GLOBALS
-h1,h2,h3,h4,h5,h6,p,a,li{
+body{
 	font-family:'Dosis',Helvetica,Verdana,sans-serif;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:700;
 }
 a{
 	text-decoration:none;
@@ -77,6 +80,9 @@ header{
 		width:100%;
 		// margin:
 		a{
+			background:$grey_dark;
+		}
+		a:hover{
 			background:$grey_light;
 		}
 		img{
@@ -177,13 +183,10 @@ footer{
 		}
 	}
 	aside{
-		// width:25%;
 		float:left;
-		// width:auto;
 		width:17%;
 		margin-left:1.5%;
 		nav {
-			// float:left
 			padding:5px 0;
 			background:$grey_light;
 			#projects{
@@ -195,8 +198,9 @@ footer{
 		}
 	}
 	section#content{
-		// width:67%;
+		width:77%;
 		margin: 0 0 0 19%;
+		padding:2%;
 	}
 	footer{
 		float:left;

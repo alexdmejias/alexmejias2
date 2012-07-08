@@ -550,8 +550,12 @@ table {
     display: block !important;
   }
 }
-h1, h2, h3, h4, h5, h6, p, a, li {
+body {
   font-family: 'Dosis',Helvetica,Verdana,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 700;
 }
 
 a {
@@ -613,6 +617,9 @@ header ul li {
   width: 100%;
 }
 #content p a {
+  background: #ecebeb;
+}
+#content p a:hover {
   background: #f8f8f8;
 }
 #content p img {
@@ -723,7 +730,9 @@ footer #share li {
   }
 
   section#content {
+    width: 77%;
     margin: 0 0 0 19%;
+    padding: 2%;
   }
 
   footer {
