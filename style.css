@@ -665,8 +665,7 @@ footer .googleplus {
   background: #DD4B39;
 }
 footer .reddit, footer a.reddit:visited {
-  background: #fff;
-  color: #000;
+  background: #F58262;
 }
 footer #share {
   width: 100%;
@@ -674,7 +673,7 @@ footer #share {
 }
 footer #share li {
   display: inline-block;
-  margin: 5px 2px;
+  margin: 6px 0px;
   list-style-type: none;
 }
 
@@ -725,9 +724,6 @@ footer #share li {
 
   section#content {
     margin: 0 0 0 19%;
-  }
-  section#content img {
-    display: block;
   }
 
   footer {
