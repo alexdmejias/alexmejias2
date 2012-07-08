@@ -83,6 +83,7 @@ header{
 			max-width:100%;
 			height:auto;
 			margin:5px 0;
+			display:block;
 		}
 	}
 }
@@ -178,7 +179,8 @@ footer{
 	aside{
 		// width:25%;
 		float:left;
-		width:auto;
+		// width:auto;
+		width:17%;
 		margin-left:1.5%;
 		nav {
 			// float:left
@@ -192,7 +194,13 @@ footer{
 			}
 		}
 	}
-
+	section#content{
+		// width:67%;
+		margin: 0 0 0 19%;
+		img{
+			display:block;
+		}
+	}
 	footer{
 		float:left;
 		width:100%;
