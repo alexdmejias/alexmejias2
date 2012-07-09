@@ -719,6 +719,7 @@ footer #share li {
     float: left;
     width: 17%;
     margin-left: 1.5%;
+    position: fixed;
   }
   aside nav {
     padding: 5px 0;
