@@ -1,6 +1,6 @@
 <!-- </div>end #cont -->
 <footer>
-	<a href="#" id="to_top">Back to Top</a>
+	<a href="#title" id="to_top">Back to Top</a>
 	<div id="share_menu">
 		<h3>Share it</h3>
 		<ul id="share">

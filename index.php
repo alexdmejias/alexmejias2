@@ -5,7 +5,7 @@
 		<?php if(have_posts()): ?>
 			<?php while (have_posts()): the_post();?>
 				<section id="content">
-					<h1><?php wp_title("",true);?></h1>
+					<h1 id="title"><?php wp_title("",true);?></h1>
 					<?php the_content(''); ?>
 				</section>
 			<?php endwhile; ?>
