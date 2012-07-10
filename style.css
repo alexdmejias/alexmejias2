@@ -613,9 +613,6 @@ header ul li {
 #content h1 {
   margin: 5px 0;
 }
-#content p {
-  width: 100%;
-}
 #content p a {
   background: #ecebeb;
 }
@@ -735,6 +732,9 @@ footer #share li {
     width: 77%;
     margin: 0 0 0 19%;
     padding: 2%;
+  }
+  section#content img {
+    display: inline;
   }
 
   footer {

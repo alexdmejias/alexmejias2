@@ -73,7 +73,7 @@ header{
 		margin:5px 0;
 	}
 	p{
-		width:100%;
+		// width:100%;
 		// margin:
 		a{
 			background:$grey_dark;
@@ -199,6 +199,12 @@ footer{
 		width:77%;
 		margin: 0 0 0 19%;
 		padding:2%;
+		img{
+			display:inline;
+		}
+	}
+	#content{
+		// text-align:left;
 	}
 	footer{
 		float:left;
