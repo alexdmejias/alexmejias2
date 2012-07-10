@@ -626,6 +626,27 @@ header ul li {
   display: block;
 }
 
+#all_projects {
+  width: 100%;
+  text-align: center;
+}
+#all_projects ul li {
+  background: #f8f8f8;
+  margin: 3px;
+  display: inline-block;
+}
+#all_projects ul li:hover {
+  background: #ecebeb;
+}
+#all_projects ul li a {
+  padding: 5px;
+}
+#all_projects ul li p {
+  margin: 0;
+  text-align: center;
+  padding: 0 0 0 7px;
+}
+
 footer {
   width: 90%;
   margin: 0 auto 20px;

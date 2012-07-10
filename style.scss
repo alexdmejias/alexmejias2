@@ -90,6 +90,25 @@ header{
 	}
 }
 
+#all_projects{
+	width:100%;
+	text-align:center;
+	ul{
+		// clear:both;
+		li{
+			background:$grey_light;
+			margin:3px;
+			display:inline-block;
+			&:hover{background:$grey_dark;}
+			a{padding:5px;}
+			p{
+				margin:0;
+				text-align:center;
+				padding:0 0 0 7px;
+			}
+		}
+	}
+}
 footer{
 	width:90%;
 	margin:0 auto 20px;

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <body><!-- index.php -->
-	<div id="cont">
+	<div id="cont"><!-- I think that this is useless -->
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>
 			<?php while (have_posts()): the_post();?>
@@ -10,6 +10,5 @@
 				</section>
 			<?php endwhile; ?>
 		<?php endif; ?>
-<!--===================END OF ACTUAL SECTIONS ===================-->
 	</div>
 <?php get_footer(); ?>
