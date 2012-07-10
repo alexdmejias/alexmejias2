@@ -10,7 +10,7 @@ Template Name: Projects
 		<?php //get_s idebar(); ?>
 			<div id="all_projects">
 				<?php $args = array(
-				    'child_of' => 7,
+				    'child_of' => 2,
 				    'sort_column' => 'menu_order'
 				); ?>
 				<?php $pages = get_pages($args); ?>

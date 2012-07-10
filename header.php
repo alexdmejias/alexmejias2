@@ -23,7 +23,7 @@
 			<div id="global">
 				<nav>
 					<ul id="global-nav">
-						<li><a href="index.php/projects">Portfolio</a></li>
+						<li><a href="index.php">Portfolio</a></li>
 						<li><a href="index.php/about">About</a></li>
 						<li><a href="index.php/blog">Blog</a></li>
 					</ul>
