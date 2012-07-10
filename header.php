@@ -23,9 +23,9 @@
 			<div id="global">
 				<nav>
 					<ul id="global-nav">
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="index.php/projects">Portfolio</a></li>
+						<li><a href="index.php/about">About</a></li>
+						<li><a href="index.php/blog">Blog</a></li>
 					</ul>
 				</nav>
 			</div>

@@ -686,7 +686,8 @@ footer #share li {
 
 @media screen and (min-width:481px) and (max-width:720px) {
   aside nav {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
   }
   aside nav ul li {
