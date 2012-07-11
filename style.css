@@ -733,6 +733,9 @@ footer #share li {
   header #header_content a {
     display: block;
   }
+  header #global {
+    margin-top: 17px;
+  }
 
   aside {
     float: left;
