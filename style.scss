@@ -96,6 +96,7 @@ header{
 	ul{
 		// clear:both;
 		li{
+			box-shadow:0 1px 3px rgba(0,0,0,0.2);
 			background:$grey_light;
 			margin:3px;
 			display:inline-block;
@@ -140,10 +141,26 @@ footer{
 		border-radius: 5px;
 		border:$grey_light 1px solid;
 	}
-	.twitter{background:#46C0FB;}
-	.facebook{background:#4863AE;}
-	.linkedin{background:#0083A8;}
-	.googleplus{background:#DD4B39;}
+	.twitter{
+		background:#46C0FB;
+		border:1px solid #46C0FB;
+	}
+	.behance{
+		background:#008CFF;
+		border:1px solid #008CFF;
+	}
+	.linkedin{
+		background:#0083A8;
+		border:1px solid #0083A8;
+	}
+	.googleplus{
+		background:#DD4B39;
+		border:1px solid #DD4B39;
+	}
+	.github{
+		background:#DADADA;
+		border:1px solid #DADADA;
+	}
 	.reddit, a.reddit:visited{
 		background:#F58262;
 		// color:#000;
