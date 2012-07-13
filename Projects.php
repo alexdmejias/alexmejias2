@@ -19,7 +19,7 @@ Template Name: Projects
 				        <li>
 				        	<a href="<?php echo get_page_link($page->ID) ?>">
 				            	<p><?php echo $page->post_title; ?></p>
-				            	<?php echo get_the_post_thumbnail($page->ID, 'project'); ?>
+				            	<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
 				            </a>
 				        </li>
 				    <?php endforeach; ?>
