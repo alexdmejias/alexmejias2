@@ -246,5 +246,10 @@ footer{
 	footer{
 		float:left;
 		width:100%;
+		#to_top{
+			position: fixed;
+			right:20px;
+			bottom:75px;
+		}
 	}
 }
