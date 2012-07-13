@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Alexis Mejias</title>
+	<title>Alexis Mejias > <?php wp_title("",true);?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:700,200,500' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>

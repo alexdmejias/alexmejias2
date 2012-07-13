@@ -238,9 +238,10 @@ footer{
 		img{
 			display:inline;
 		}
-	}
-	#content{
-		// text-align:left;
+		h1 + p{
+			width:60%;
+		}
+
 	}
 	footer{
 		float:left;
