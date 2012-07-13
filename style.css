@@ -648,6 +648,7 @@ header ul li {
 #all_projects ul li p {
   margin: 0;
   text-align: center;
+  padding: 5px 0;
 }
 
 footer {
