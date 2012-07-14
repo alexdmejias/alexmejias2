@@ -613,10 +613,10 @@ header ul li {
 #content h1 {
   margin: 5px 0;
 }
-#content p a {
+#content h1 + p a {
   background: #ecebeb;
 }
-#content p a:hover {
+#content h1 + p a:hover {
   background: #f8f8f8;
 }
 #content p img {

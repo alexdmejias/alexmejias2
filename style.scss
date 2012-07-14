@@ -72,15 +72,15 @@ header{
 	h1{
 		margin:5px 0;
 	}
-	p{
-		// width:100%;
-		// margin:
+	h1+p {
 		a{
 			background:$grey_dark;
 		}
 		a:hover{
 			background:$grey_light;
 		}
+	}
+	p{
 		img{
 			max-width:100%;
 			height:auto;
