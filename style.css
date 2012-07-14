@@ -711,6 +711,12 @@ footer #share li {
   list-style-type: none;
 }
 
+@media screen and (max-width:480px) {
+  #section img {
+    padding: 0;
+    margin: 10px 0;
+  }
+}
 @media screen and (min-width:481px) and (max-width:720px) {
   aside nav {
     width: 95%;
