@@ -712,7 +712,7 @@ footer #share li {
 }
 
 @media screen and (max-width:480px) {
-  #content img {
+  #content p img {
     padding: 0;
     margin: 10px 0;
   }
