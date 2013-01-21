@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Alex Mejias > <?php wp_title("",true);?></title>
+	<meta charset="UTF-8">
+	<title>Alex Mejias</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:700,200,500' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
@@ -23,10 +23,9 @@
 					<ul id="global-nav">
 						<li><a href="<?php bloginfo('wpurl'); ?>">Portfolio</a></li>
 						<li><a href="/index.php/about">About</a></li>
+						<li><a href="http://amejias101.github.com/resume/">Resume</a></li>
 						<li><a href="/index.php/blog">Blog</a></li>
 					</ul>
 				</nav>
 			</div>
 	</header>
-
-

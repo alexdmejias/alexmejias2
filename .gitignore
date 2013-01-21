@@ -1,4 +1,6 @@
 .sass-cache/
-css/inc/*.css
-OLD/
 ftpdata
+css/inc/*.css
+sftp-config.json
+/.sass-cache
+OLD/
