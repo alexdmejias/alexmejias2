@@ -9,6 +9,7 @@ Template Name: Projects
 	<div id="cont">
 		<?php //get_s idebar(); ?>
 			<div id="all_projects">
+				asdasdasd
 				<?php $args = array(
 				    'child_of' => 2,
 				    'sort_column' => 'menu_order'
