@@ -1,24 +1,19 @@
-<?php  
+<?php
 /*
-Template Name: Page 
+Template Name: Page
 */
 ?>
-
 <?php get_header(); ?>
-<body><!-- Template:Page -->
-	<div id="cont">
+<body><!-- index.php -->
+	<div id="cont"><!-- I think that this is useless -->
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>
-		<?php while (have_posts()): the_post();?>
-		<div id="right">
-            
-			<div id="post">
-				<h2 class="title"><?php wp_title("");?></h2>
-				<div class="entry">
+			<?php while (have_posts()): the_post();?>
+				<section id="content">
+					<h1 id="title"><?php wp_title("",true);?></h1>
 					<?php the_content(''); ?>
-				</div><!-- END #ENTRY -->
-				<?php endwhile; ?>
-			<?php endif;?>
-			</div><!-- END  #POST -->        
-		</div><!-- END #RIGHT -->
+				</section>
+			<?php endwhile; ?>
+		<?php endif; ?>
+	</div>
 <?php get_footer(); ?>
