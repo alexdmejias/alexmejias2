@@ -98,7 +98,8 @@ header{
 			padding-bottom: 20px;
 			overflow: hidden;
 			h2, h3 {
-				font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+				// font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+				letter-spacing: 1px;
 				font-size: 14px;
 			}
 			.left {
@@ -119,7 +120,7 @@ header{
 					h3 {
 						margin: 0;
 						display: inline;
-						font-weight: 500;
+						font-weight: 700;
 					}
 					.company {
 						float: left;
@@ -133,7 +134,7 @@ header{
 					}
 				}
 				p, li {
-					font-family: Palatino,Georgia,"Times New Roman",serif;
+					// font-family: Palatino,Georgia,"Times New Roman",serif;
 					font-size: 14px;
 					line-height: 20px;
 				}
