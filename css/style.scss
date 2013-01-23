@@ -276,6 +276,7 @@ footer{
 
 	}
 }
+
 @media screen and (min-width:721px){
 	header{
 		height:90px;
@@ -302,6 +303,7 @@ footer{
 		width:17%;
 		margin-left:1.5%;
 		position:fixed;
+		margin-top: 30px;
 		nav {
 			padding:5px 0;
 			background:$grey_light;
@@ -316,7 +318,7 @@ footer{
 	section#content{
 		width:77%;
 		margin: 0 0 0 19%;
-		padding:2%;
+		padding: 24px 2%;
 		img{
 			display:inline;
 		}
@@ -332,6 +334,16 @@ footer{
 			position: fixed;
 			right:20px;
 			bottom:53px;
+		}
+	}
+}
+
+@media screen and (min-width:951px){
+	.section {
+		.left {
+			width: 85%;
+			text-align: left;
+			float: right;
 		}
 	}
 }

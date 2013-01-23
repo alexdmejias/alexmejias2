@@ -1,4 +1,4 @@
-var testing = false;
+var testing = true;
 
 jQuery(document).ready(function($){
 
@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
 			if($('#size').length<1){
 				$('body').append('<div id="size"></div>');
 			}
-			$('#size').text($(window).innerWidth() +' X '+$(window).innerHeight()).css({'position':'absolute','bottom':0,'right':0,'background-color':'red'});
+			$('#size').text($(window).innerWidth() +' X '+$(window).innerHeight()).css({'position':'fixed','bottom':0,'right':0,'background-color':'red'});
 		});
 	}
 
