@@ -177,6 +177,16 @@ footer{
 	}
 }
 
+@media screen and (max-width:320px) {
+	#global-nav {
+			padding: 10px 0;
+			li {
+				display: inline;
+				padding: 0 13px;
+				float: none;
+			}
+		}
+}
 @media screen and (max-width:480px){
 	#content{
 		p{
@@ -188,17 +198,7 @@ footer{
 	}
 }
 
-
 @media screen and (min-width:481px) and (max-width:720px){
-	header {
-		ul {
-			li {
-				display: inline;
-				padding: 0 15px;
-				float: none;
-			}
-		}
-	}
 	aside{
 		nav{
 			width:95%;

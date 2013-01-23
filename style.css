@@ -596,21 +596,26 @@ footer #share li {
   list-style-type: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+  /* line 181, style.scss */
+  #global-nav {
+    padding: 10px 0;
+  }
   /* line 183, style.scss */
+  #global-nav li {
+    display: inline;
+    padding: 0 13px;
+    float: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 193, style.scss */
   #content p img {
     padding: 0;
     margin: 10px 0;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 720px) {
-  /* line 195, style.scss */
-  header ul li {
-    display: inline;
-    padding: 0 15px;
-    float: none;
-  }
-
   /* line 203, style.scss */
   aside nav {
     width: 95%;
