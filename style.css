@@ -495,102 +495,166 @@ header ul li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background: #fff;
 }
-
 /* line 96, style.scss */
+#content.resume .section {
+  width: 77%;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+/* line 100, style.scss */
+#content.resume .section h2, #content.resume .section h3 {
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+/* line 104, style.scss */
+#content.resume .section .left {
+  display: inline;
+  float: left;
+  width: 15%;
+  text-align: right;
+}
+/* line 109, style.scss */
+#content.resume .section .left h2 {
+  display: inline;
+  padding: 0 10px 0 0;
+  margin: 0;
+}
+/* line 115, style.scss */
+#content.resume .section .right {
+  float: right;
+  width: 85%;
+}
+/* line 119, style.scss */
+#content.resume .section .right .heading h3 {
+  margin: 0;
+  display: inline;
+  font-weight: 500;
+}
+/* line 124, style.scss */
+#content.resume .section .right .heading .company {
+  float: left;
+}
+/* line 127, style.scss */
+#content.resume .section .right .heading .date {
+  float: right;
+}
+/* line 130, style.scss */
+#content.resume .section .right .heading .position {
+  width: 100%;
+  float: left;
+}
+/* line 135, style.scss */
+#content.resume .section .right p, #content.resume .section .right li {
+  font-family: Palatino,Georgia,"Times New Roman",serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 140, style.scss */
+#content.resume .section .right p {
+  margin: 0;
+  float: left;
+}
+/* line 144, style.scss */
+#content.resume .section .right ul {
+  list-style: none;
+  padding-top: 2px;
+}
+
+/* line 153, style.scss */
 #all_projects {
   width: 100%;
   text-align: center;
 }
-/* line 100, style.scss */
+/* line 157, style.scss */
 #all_projects ul li {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   background: #f8f8f8;
   margin: 3px;
   display: inline-block;
 }
-/* line 105, style.scss */
+/* line 162, style.scss */
 #all_projects ul li:hover {
   background: #d4d4d4;
 }
-/* line 106, style.scss */
+/* line 163, style.scss */
 #all_projects ul li a {
   padding: 5px;
 }
-/* line 107, style.scss */
+/* line 164, style.scss */
 #all_projects ul li p {
   margin: 0;
   text-align: center;
   padding: 5px 0;
 }
 
-/* line 115, style.scss */
+/* line 172, style.scss */
 footer {
   width: 90%;
   margin: 0 auto 20px;
   text-align: center;
 }
-/* line 120, style.scss */
+/* line 177, style.scss */
 footer a, footer a:visited {
   font-size: 13px;
   padding: 4px 8px;
   color: #fff;
 }
-/* line 125, style.scss */
+/* line 182, style.scss */
 footer a:hover {
   color: #d4d4d4;
 }
-/* line 128, style.scss */
+/* line 185, style.scss */
 footer #to_top {
   position: absolute;
   right: 20px;
   color: #000;
 }
-/* line 132, style.scss */
+/* line 189, style.scss */
 footer #to_top:hover {
   color: #d4d4d4;
 }
-/* line 136, style.scss */
+/* line 193, style.scss */
 footer h3 {
   margin-bottom: 10px;
 }
-/* line 140, style.scss */
+/* line 197, style.scss */
 footer .round {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border: #f8f8f8 1px solid;
 }
-/* line 146, style.scss */
+/* line 203, style.scss */
 footer .twitter {
   background: #46C0FB;
   border: 1px solid #46c0fb;
 }
-/* line 150, style.scss */
+/* line 207, style.scss */
 footer .behance {
   background: #008CFF;
   border: 1px solid #008cff;
 }
-/* line 154, style.scss */
+/* line 211, style.scss */
 footer .linkedin {
   background: #0083A8;
   border: 1px solid #0083a8;
 }
-/* line 158, style.scss */
+/* line 215, style.scss */
 footer .googleplus {
   background: #DD4B39;
   border: 1px solid #dd4b39;
 }
-/* line 162, style.scss */
+/* line 219, style.scss */
 footer .github {
   background: #DADADA;
   border: 1px solid #dadada;
 }
-/* line 170, style.scss */
+/* line 227, style.scss */
 footer #share {
   width: 100%;
   text-align: center;
 }
-/* line 173, style.scss */
+/* line 230, style.scss */
 footer #share li {
   display: inline-block;
   margin: 6px 0px;
@@ -598,11 +662,11 @@ footer #share li {
 }
 
 @media screen and (max-width: 320px) {
-  /* line 182, style.scss */
+  /* line 239, style.scss */
   #global-nav {
     padding: 10px 0;
   }
-  /* line 184, style.scss */
+  /* line 241, style.scss */
   #global-nav li {
     display: inline;
     padding: 0 13px;
@@ -610,95 +674,95 @@ footer #share li {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 194, style.scss */
+  /* line 251, style.scss */
   #content p img {
     padding: 0;
     margin: 10px 0;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 720px) {
-  /* line 204, style.scss */
+  /* line 261, style.scss */
   aside nav {
     width: 95%;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 209, style.scss */
+  /* line 266, style.scss */
   aside nav ul li {
     display: inline-block;
     margin: 2px;
   }
-  /* line 212, style.scss */
+  /* line 269, style.scss */
   aside nav ul li a:hover {
     background: #d4d4d4;
   }
 }
 @media screen and (min-width: 721px) {
-  /* line 222, style.scss */
+  /* line 279, style.scss */
   header {
     height: 90px;
     text-align: left;
   }
-  /* line 225, style.scss */
+  /* line 282, style.scss */
   header #header_content, header #global {
     float: left;
   }
-  /* line 228, style.scss */
+  /* line 285, style.scss */
   header #header_content {
     margin-left: 2.3%;
   }
-  /* line 230, style.scss */
+  /* line 287, style.scss */
   header #header_content p {
     margin-top: 0;
   }
-  /* line 233, style.scss */
+  /* line 290, style.scss */
   header #header_content a {
     display: block;
   }
-  /* line 237, style.scss */
+  /* line 294, style.scss */
   header #global {
     margin-top: 17px;
   }
 
-  /* line 242, style.scss */
+  /* line 299, style.scss */
   aside {
     float: left;
     width: 17%;
     margin-left: 1.5%;
     position: fixed;
   }
-  /* line 247, style.scss */
+  /* line 304, style.scss */
   aside nav {
     padding: 5px 0;
     background: #f8f8f8;
   }
-  /* line 251, style.scss */
+  /* line 308, style.scss */
   aside nav #projects li {
     display: list-item;
     margin-right: 0;
   }
 
-  /* line 258, style.scss */
+  /* line 315, style.scss */
   section#content {
     width: 77%;
     margin: 0 0 0 19%;
     padding: 2%;
   }
-  /* line 262, style.scss */
+  /* line 319, style.scss */
   section#content img {
     display: inline;
   }
-  /* line 265, style.scss */
+  /* line 322, style.scss */
   section#content h1 + p {
     width: 60%;
   }
 
-  /* line 270, style.scss */
+  /* line 327, style.scss */
   footer {
     float: left;
     width: 100%;
   }
-  /* line 273, style.scss */
+  /* line 330, style.scss */
   footer #to_top {
     position: fixed;
     right: 20px;

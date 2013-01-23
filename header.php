@@ -23,7 +23,7 @@
 					<ul id="global-nav">
 						<li><a href="<?php bloginfo('wpurl'); ?>">Portfolio</a></li>
 						<li><a href="/index.php/about">About</a></li>
-						<li><a href="http://amejias101.github.com/resume/">Resume</a></li>
+						<li><a href="/index.php/resume/">Resume</a></li>
 						<li><a href="/index.php/blog">Blog</a></li>
 					</ul>
 				</nav>

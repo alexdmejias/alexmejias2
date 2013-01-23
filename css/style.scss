@@ -91,6 +91,63 @@ header{
 			background:#fff;
 		}
 	}
+
+	&.resume {
+		.section {
+			width: 77%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2, h3 {
+				font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+				font-size: 14px;
+			}
+			.left {
+				display: inline;
+				float: left;
+				width: 15%;
+				text-align: right;
+				h2 {
+					display: inline;
+					padding: 0 10px 0 0;
+					margin: 0;
+				}
+			}
+			.right {
+				float: right;
+				width: 85%;
+				.heading {
+					h3 {
+						margin: 0;
+						display: inline;
+						font-weight: 500;
+					}
+					.company {
+						float: left;
+					}
+					.date {
+						float: right
+					}
+					.position {
+						width: 100%;
+						float: left;
+					}
+				}
+				p, li {
+					font-family: Palatino,Georgia,"Times New Roman",serif;
+					font-size: 14px;
+					line-height: 20px;
+				}
+				p {
+					margin: 0;
+					float: left;
+				}
+				ul {
+					list-style: none;
+					padding-top: 2px;
+				}
+			}
+		}
+	}
 }
 
 #all_projects{
