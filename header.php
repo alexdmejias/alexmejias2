@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:700,200,500' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body onload="window.top.scrollTo(0,1);">

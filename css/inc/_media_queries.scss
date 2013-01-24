@@ -1,0 +1,209 @@
+@mixin debug($message, $color: rgba(255,255,0, 0.9) ){ &::before{ content: $message; font-weight: bold; display: block; text-align: center; background: #{$color}; position: absolute; right: 0; left: 0; top: 0; z-index: 99; } }
+
+@media screen and (max-width: 480px){
+	body{
+		@if($DEBUG == true){
+			@include debug("max 480", "pink");
+		}
+	}
+	#content {
+		p {
+			img {
+				padding: 0;
+				margin: 10px 0;
+			}
+		}
+	}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px){
+	body{
+		@if($DEBUG == true){
+			@include debug("min 481 max 720", "blue");
+		}
+	}
+
+	aside {
+		nav {
+			width: 95%;
+			margin: 0 auto;
+			text-align: center;
+			ul {
+				li {
+					display: inline-block;
+					margin: 2px;
+					a:hover {
+						background: $grey_dark;
+					}
+				}
+			}
+		}
+	}
+	#content.resume {
+		.section {
+			.right {
+				.heading {
+					.company {
+						width: auto;
+						float: left;
+ 					}
+ 					.date {
+ 						float: right;
+ 					}
+ 					.position {
+ 						width: 100%;
+ 						float: left;
+ 					}
+				}
+			}
+			}
+	}
+}
+
+@media screen and (min-width: 637px){
+	body{
+		@if($DEBUG == true){
+			@include debug("min 637", "yellow");
+		}
+	}
+	#content.resume {
+		.section {
+			.right {
+				.company {
+					width: 100%;
+				}
+				.date {
+					float: left;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 721px){
+	body{
+		@if($DEBUG == true){
+			@include debug("min 721", "green");
+		}
+	}
+	header {
+		height: 90px;
+		text-align: left;
+		#header_content,#global {
+			float: left;
+		}
+		#header_content {
+			margin-left: 2.3%;
+			p {
+				margin-top: 0;
+			}
+			a {
+				display: block;
+			}
+		}
+		#global {
+			// margin-left: 250px;
+			margin-top: 17px;
+		}
+	}
+	aside {
+		float: left;
+		width: 17%;
+		margin-left: 1.5%;
+		position: fixed;
+		margin-top: 30px;
+		nav {
+			padding: 5px 0;
+			background: $grey_light;
+			#projects {
+				li {
+					display: list-item;
+					margin-right: 0
+				}
+			}
+		}
+	}
+	#content {
+		width: 77%;
+		margin: 0 0 0 19%;
+		padding: 24px 2%;
+		img {
+			display: inline;
+		}
+		h1 + p {
+			width: 60%;
+		}
+		&.resume{
+			.section {
+				.right {
+					.heading {
+						.company {
+							display: inline;
+						}
+						.date {
+							float: right;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	footer {
+		float: left;
+		width: 100%;
+		#to_top {
+			position: fixed;
+			right: 20px;
+			bottom: 53px;
+		}
+	}
+}
+
+@media screen and (min-width: 851px){
+	body{
+		@if($DEBUG == true){
+			@include debug("min 851", "lightblue");
+		}
+	}
+	#content.resume {
+		width: 50%;
+		padding-left: 10px;
+		.section {
+			.right {
+				width: 85%;
+				text-align: left;
+				float: right;
+				&.skills {
+					ul {
+						width: 37%;
+						float: left;
+					}
+				}
+			}
+			.left {
+				width: 15%;
+				text-align: right;
+				float: left;
+			}
+		}
+	}
+}
+
+// @media screen and (min-width: 951px){
+// 	body{
+	// @if($DEBUG == true){
+	// 		@include debug("min 951", "red");
+	// }
+// 	}
+// 	#content.resume {
+// 		.section {
+// 			.left {
+// 				width: 85%;
+// 				text-align: left;
+// 				float: right;
+// 			}
+// 		}
+// 	}
+// }
