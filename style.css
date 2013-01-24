@@ -489,167 +489,166 @@ header #global li:hover {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 91, inc/_main.scss */
+/* line 74, inc/_main.scss */
 #content {
   padding: 10px;
   width: 90%;
   margin: 0 auto;
 }
-/* line 96, inc/_main.scss */
+/* line 79, inc/_main.scss */
 #content h1 {
   margin: 5px 0;
 }
-/* line 100, inc/_main.scss */
+/* line 83, inc/_main.scss */
 #content h1 + p a {
   background: #d4d4d4;
 }
-/* line 103, inc/_main.scss */
+/* line 86, inc/_main.scss */
 #content h1 + p a:hover {
   background: #f8f8f8;
 }
-/* line 108, inc/_main.scss */
+/* line 91, inc/_main.scss */
 #content p img {
-  max-width: 100%;
+  max-width: 96%;
   height: auto;
-  margin: 10px;
   display: block;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background: #fff;
 }
-/* line 120, inc/_main.scss */
+/* line 103, inc/_main.scss */
 #content.resume .section {
   padding-bottom: 20px;
   overflow: hidden;
 }
-/* line 123, inc/_main.scss */
+/* line 106, inc/_main.scss */
 #content.resume .section h2, #content.resume .section h3 {
   letter-spacing: 1px;
   font-size: 14px;
 }
-/* line 129, inc/_main.scss */
+/* line 112, inc/_main.scss */
 #content.resume .section .left h2 {
   display: inline;
   padding: 0 10px 0 0;
   margin: 0;
 }
-/* line 137, inc/_main.scss */
+/* line 120, inc/_main.scss */
 #content.resume .section .right .heading h3 {
   margin: 0;
   display: block;
   font-weight: 700;
 }
-/* line 143, inc/_main.scss */
+/* line 126, inc/_main.scss */
 #content.resume .section .right p, #content.resume .section .right li {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 147, inc/_main.scss */
+/* line 130, inc/_main.scss */
 #content.resume .section .right p {
   margin: 0;
   float: left;
 }
-/* line 151, inc/_main.scss */
+/* line 134, inc/_main.scss */
 #content.resume .section .right ul {
   list-style: none;
   padding-top: 2px;
 }
 
-/* line 160, inc/_main.scss */
+/* line 143, inc/_main.scss */
 #all_projects {
   width: 100%;
   text-align: center;
 }
-/* line 164, inc/_main.scss */
+/* line 147, inc/_main.scss */
 #all_projects ul li {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   background: #f8f8f8;
   margin: 3px;
   display: inline-block;
 }
-/* line 169, inc/_main.scss */
+/* line 152, inc/_main.scss */
 #all_projects ul li:hover {
   background: #d4d4d4;
 }
-/* line 170, inc/_main.scss */
+/* line 153, inc/_main.scss */
 #all_projects ul li a {
   padding: 5px;
 }
-/* line 171, inc/_main.scss */
+/* line 154, inc/_main.scss */
 #all_projects ul li p {
   margin: 0;
   text-align: center;
   padding: 5px 0;
 }
 
-/* line 179, inc/_main.scss */
+/* line 162, inc/_main.scss */
 footer {
   width: 90%;
   margin: 0 auto 20px;
   text-align: center;
 }
-/* line 184, inc/_main.scss */
+/* line 167, inc/_main.scss */
 footer a, footer a:visited {
   font-size: 13px;
   padding: 4px 8px;
   color: #fff;
 }
-/* line 189, inc/_main.scss */
+/* line 172, inc/_main.scss */
 footer a:hover {
   color: #d4d4d4;
 }
-/* line 192, inc/_main.scss */
+/* line 175, inc/_main.scss */
 footer #to_top {
   position: absolute;
   right: 20px;
   color: #000;
 }
-/* line 196, inc/_main.scss */
+/* line 179, inc/_main.scss */
 footer #to_top:hover {
   color: #d4d4d4;
 }
-/* line 200, inc/_main.scss */
+/* line 183, inc/_main.scss */
 footer h3 {
   margin-bottom: 10px;
 }
-/* line 204, inc/_main.scss */
+/* line 187, inc/_main.scss */
 footer .round {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border: #f8f8f8 1px solid;
 }
-/* line 210, inc/_main.scss */
+/* line 193, inc/_main.scss */
 footer .twitter {
   background: #46C0FB;
   border: 1px solid #46c0fb;
 }
-/* line 214, inc/_main.scss */
+/* line 197, inc/_main.scss */
 footer .behance {
   background: #008CFF;
   border: 1px solid #008cff;
 }
-/* line 218, inc/_main.scss */
+/* line 201, inc/_main.scss */
 footer .linkedin {
   background: #0083A8;
   border: 1px solid #0083a8;
 }
-/* line 222, inc/_main.scss */
+/* line 205, inc/_main.scss */
 footer .googleplus {
   background: #DD4B39;
   border: 1px solid #dd4b39;
 }
-/* line 226, inc/_main.scss */
+/* line 209, inc/_main.scss */
 footer .github {
   background: #DADADA;
   border: 1px solid #dadada;
 }
-/* line 230, inc/_main.scss */
+/* line 213, inc/_main.scss */
 footer #share {
   width: 100%;
   text-align: center;
 }
-/* line 233, inc/_main.scss */
+/* line 216, inc/_main.scss */
 footer #share li {
   display: inline-block;
   margin: 6px 0px;
@@ -657,20 +656,6 @@ footer #share li {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 1, inc/_media_queries.scss */
-  body::before {
-    content: "max 480";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: pink;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 99;
-  }
-
   /* line 11, inc/_media_queries.scss */
   #content p img {
     padding: 0;
@@ -678,20 +663,6 @@ footer #share li {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 720px) {
-  /* line 1, inc/_media_queries.scss */
-  body::before {
-    content: "min 481 max 720";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: blue;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 99;
-  }
-
   /* line 28, inc/_media_queries.scss */
   aside nav {
     width: 95%;
@@ -724,20 +695,6 @@ footer #share li {
   }
 }
 @media screen and (min-width: 637px) {
-  /* line 1, inc/_media_queries.scss */
-  body::before {
-    content: "min 637";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: yellow;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 99;
-  }
-
   /* line 73, inc/_media_queries.scss */
   #content.resume .section .right .company {
     width: 100%;
@@ -748,20 +705,6 @@ footer #share li {
   }
 }
 @media screen and (min-width: 721px) {
-  /* line 1, inc/_media_queries.scss */
-  body::before {
-    content: "min 721";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: green;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 99;
-  }
-
   /* line 90, inc/_media_queries.scss */
   header {
     height: 90px;
@@ -843,40 +786,43 @@ footer #share li {
   }
 }
 @media screen and (min-width: 851px) {
-  /* line 1, inc/_media_queries.scss */
-  body::before {
-    content: "min 851";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: lightblue;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 99;
-  }
-
   /* line 170, inc/_media_queries.scss */
   #content.resume {
-    width: 50%;
+    width: 55%;
     padding-left: 10px;
+    max-width: 650px;
   }
-  /* line 174, inc/_media_queries.scss */
+  /* line 175, inc/_media_queries.scss */
   #content.resume .section .right {
     width: 85%;
     text-align: left;
     float: right;
   }
-  /* line 179, inc/_media_queries.scss */
+  /* line 180, inc/_media_queries.scss */
   #content.resume .section .right.skills ul {
     width: 37%;
     float: left;
   }
-  /* line 185, inc/_media_queries.scss */
+  /* line 186, inc/_media_queries.scss */
   #content.resume .section .left {
     width: 15%;
     text-align: right;
     float: left;
+  }
+}
+@media print {
+  /* line 2, inc/_print.scss */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  }
+
+  /* line 5, inc/_print.scss */
+  p, ul {
+    font-family: Palatino, Georgia, "Times New Roman", serif;
+  }
+
+  /* line 8, inc/_print.scss */
+  #share_menu, #to_top, aside, #global {
+    display: none;
   }
 }

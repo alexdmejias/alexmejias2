@@ -69,23 +69,6 @@ header {
 			-webkit-font-smoothing: subpixel-antialiased;
 
 		}
-		// #global-nav {
-		// 	li {
-		// 		-webkit-transition: all 1s;
-		// 		-moz-transition: all 1s;
-		// 		-o-transition: all 1s;
-		// 		-ms-transition: all 1s;
-		// 		transition: all 1s;
-		// 	}
-		// 	li:hover a {
-		// 		text-shadow: 0;
-		// 		-webkit-transform: translate(0, -2px);
-		// 		-moz-transform: translate(0, -2px);
-		// 		-o-transform: translate(0, -2px);
-		// 		-ms-transform: translate(0, -2px);
-		// 		transform: translate(0, -2px);
-		// 	}
-		// }
 	}
 } //end header
 #content {
@@ -106,9 +89,9 @@ header {
 	}
 	p {
 		img {
-			max-width: 100%;
+			max-width: 96%;
 			height: auto;
-			margin: 10px;
+			// margin: 10px;
 			display: block;
 			padding: 10px;
 			box-shadow: 0 0 5px rgba(0,0,0,0.5);

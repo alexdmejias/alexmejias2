@@ -1,0 +1,11 @@
+@media print {
+	h1, h2, h3,  h4, h5, h6 {
+		font-family: $print_sans;
+	}
+	p, ul {
+		font-family: $print_serif;
+	}
+	#share_menu, #to_top, aside, #global {
+		display: none;
+	}
+}
