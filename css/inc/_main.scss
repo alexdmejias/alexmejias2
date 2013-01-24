@@ -59,34 +59,35 @@ header {
 		li {
 			-webkit-transition: all 0.5s;
 			-moz-transition: all 0.5s;
+			background: $header_color;
+			-webkit-font-smoothing: subpixel-antialiased;
 		}
 		li:hover {
-			-webkit-transform: translate(0, -5px);
-			-moz-transform: translate(0, -5px);
+			-webkit-transform: translate(0, -2px);
+			-moz-transform: translate(0, -2px);
+			text-shadow: 0;
+			-webkit-font-smoothing: subpixel-antialiased;
+
 		}
-		#global-nav {
-			li {
-				-webkit-transition: all 1s;
-				-moz-transition: all 1s;
-				-o-transition: all 1s;
-				-ms-transition: all 1s;
-				transition: all 1s;
-			}
-			li:hover a {
-				-webkit-transform: translate(0, -5px);
-				-moz-transform: translate(0, -5px);
-				-o-transform: translate(0, -5px);
-				-ms-transform: translate(0, -5px);
-				transform: translate(0, -5px);
-			}
-		}
+		// #global-nav {
+		// 	li {
+		// 		-webkit-transition: all 1s;
+		// 		-moz-transition: all 1s;
+		// 		-o-transition: all 1s;
+		// 		-ms-transition: all 1s;
+		// 		transition: all 1s;
+		// 	}
+		// 	li:hover a {
+		// 		text-shadow: 0;
+		// 		-webkit-transform: translate(0, -2px);
+		// 		-moz-transform: translate(0, -2px);
+		// 		-o-transform: translate(0, -2px);
+		// 		-ms-transform: translate(0, -2px);
+		// 		transform: translate(0, -2px);
+		// 	}
+		// }
 	}
 } //end header
-
-
-
-
-
 #content {
 	padding: 10px;
 	width: 90%;

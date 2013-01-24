@@ -1,4 +1,4 @@
-var testing = true;
+var testing = false;
 
 jQuery(document).ready(function($){
 

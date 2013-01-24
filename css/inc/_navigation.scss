@@ -7,26 +7,23 @@
 	li {
 		list-style: none;
 		margin-right: 5px;
-
+		background: $grey_light;
 		a{
 			padding: 4px 15px;
 			display: block;
 			color: #000;
-			background: $grey_light;
-			&:hover{
-				background:$grey_dark;
-			}
+		}
+		&:hover,&.current_page_item{
+			background-color:$grey_dark;
 		}
 	}
 }
 
 @media screen and (max-width: 480px) {
-
 	aside nav {
 		margin:0 auto;
 		width:90%;
 	}
-
 	#menu-icon {
 		padding:5px;
 		text-align:center;
@@ -52,7 +49,7 @@
 		li {
 			clear: both;
 			float: none;
-			width:100%;
+			width: 100%;
 			padding:5px 0;
 
 			a{
@@ -71,16 +68,21 @@
 			}
 		}
 	}
-
-	/* dropdown */
-
 }
 
 @media screen and (min-width: 481px) {
-
 	/* ensure #projects is visible on desktop version */
 	#projects {
 		display: block !important;
 	}
+}
 
+@media screen and (min-width: 721px){
+	#projects{
+		li {
+			a:hover{
+				padding-left: 20px;
+			}
+		}
+	}
 }
