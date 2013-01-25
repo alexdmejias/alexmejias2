@@ -11,7 +11,6 @@ require 'ruby_gntp'
 require 'fileutils'
 
 # output_style = :expanded or :nested or :compact or :compressed
-output_style = :compressed
 
 # http://css-tricks.com/compass-compiling-and-wordpress-themes/
 on_stylesheet_saved do |file|

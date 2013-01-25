@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Alex Mejias</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" />
-	<!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/inc/print.css" media="print"/> -->
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/inc/print.css" media="print"/>
 	<link href='http://fonts.googleapis.com/css?family=Dosis:700,200,500' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
