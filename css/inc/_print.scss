@@ -8,13 +8,11 @@
     	line-height: 1.8;
 		color: #000;
 		margin: 50px;
-		// line-height: 1.35;
 	}
 
 	h3 {
 		font-family: $print_sans;
-		margin: 0;
-		// font-weight: bold !important;
+		margin: 0 !important;
 	}
 	a, a:visited {
 		text-decoration: none;
@@ -30,7 +28,7 @@
 	}
 
 	#print_header {
-		// display: inline;
+		display: block;
 		float: left;
 		width: 15%;
 		margin-top: 10px;
