@@ -27,7 +27,7 @@ end
 
 on_stylesheet_error do |file, message|
   GNTP.notify({
-    :app_name => "Compass",
+    :app_name => "FAIL",
     :title    => "#{File.basename(file)} FAILED",
     :text     => message
   })

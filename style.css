@@ -824,43 +824,46 @@ footer #share li {
   /* line 6, inc/_print.scss */
   body {
     font-size: 10pt !important;
-    line-height: 1.8;
     color: #000;
     margin: 50px;
+    line-height: 1.35;
   }
 
-  /* line 14, inc/_print.scss */
+  /* line 13, inc/_print.scss */
   h3 {
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  /* line 19, inc/_print.scss */
+  /* line 18, inc/_print.scss */
   a, a:visited {
     text-decoration: none;
     color: #000;
   }
 
-  /* line 24, inc/_print.scss */
+  /* line 23, inc/_print.scss */
   p, ul {
     font-family: Palatino, Georgia, "Times New Roman", serif;
     margin: 0;
   }
 
-  /* line 28, inc/_print.scss */
+  /* line 27, inc/_print.scss */
   #share_menu, #to_top, aside, #global, header {
     display: none;
   }
 
-  /* line 32, inc/_print.scss */
+  /* line 31, inc/_print.scss */
   #print_header {
+    display: inline;
     float: left;
     width: 15%;
     margin-top: 10px;
   }
 
-  /* line 39, inc/_print.scss */
+  /* line 38, inc/_print.scss */
   #content {
+    margin-top: -100px;
     width: 85%;
     float: right;
   }
