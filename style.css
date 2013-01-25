@@ -490,24 +490,29 @@ header #global li:hover {
 }
 
 /* line 74, inc/_main.scss */
+#print_header {
+  display: none;
+}
+
+/* line 77, inc/_main.scss */
 #content {
   padding: 10px;
   width: 90%;
   margin: 0 auto;
 }
-/* line 79, inc/_main.scss */
+/* line 82, inc/_main.scss */
 #content h1 {
   margin: 5px 0;
 }
-/* line 83, inc/_main.scss */
+/* line 86, inc/_main.scss */
 #content h1 + p a {
   background: #d4d4d4;
 }
-/* line 86, inc/_main.scss */
+/* line 89, inc/_main.scss */
 #content h1 + p a:hover {
   background: #f8f8f8;
 }
-/* line 91, inc/_main.scss */
+/* line 94, inc/_main.scss */
 #content p img {
   max-width: 96%;
   height: auto;
@@ -516,139 +521,139 @@ header #global li:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background: #fff;
 }
-/* line 103, inc/_main.scss */
+/* line 106, inc/_main.scss */
 #content.resume .section {
   padding-bottom: 20px;
   overflow: hidden;
 }
-/* line 106, inc/_main.scss */
+/* line 109, inc/_main.scss */
 #content.resume .section h2, #content.resume .section h3 {
   letter-spacing: 1px;
   font-size: 14px;
 }
-/* line 112, inc/_main.scss */
+/* line 115, inc/_main.scss */
 #content.resume .section .left h2 {
   display: inline;
   padding: 0 10px 0 0;
   margin: 0;
 }
-/* line 120, inc/_main.scss */
+/* line 123, inc/_main.scss */
 #content.resume .section .right .heading h3 {
   margin: 0;
   display: block;
   font-weight: 700;
 }
-/* line 126, inc/_main.scss */
+/* line 129, inc/_main.scss */
 #content.resume .section .right p, #content.resume .section .right li {
   font-size: 14px;
   line-height: 20px;
 }
-/* line 130, inc/_main.scss */
+/* line 133, inc/_main.scss */
 #content.resume .section .right p {
   margin: 0;
   float: left;
 }
-/* line 134, inc/_main.scss */
+/* line 137, inc/_main.scss */
 #content.resume .section .right ul {
   list-style: none;
   padding-top: 2px;
 }
 
-/* line 143, inc/_main.scss */
+/* line 146, inc/_main.scss */
 #all_projects {
   width: 100%;
   text-align: center;
 }
-/* line 147, inc/_main.scss */
+/* line 150, inc/_main.scss */
 #all_projects ul li {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   background: #f8f8f8;
   margin: 3px;
   display: inline-block;
 }
-/* line 152, inc/_main.scss */
+/* line 155, inc/_main.scss */
 #all_projects ul li:hover {
   background: #d4d4d4;
 }
-/* line 153, inc/_main.scss */
+/* line 156, inc/_main.scss */
 #all_projects ul li a {
   padding: 5px;
 }
-/* line 154, inc/_main.scss */
+/* line 157, inc/_main.scss */
 #all_projects ul li p {
   margin: 0;
   text-align: center;
   padding: 5px 0;
 }
 
-/* line 162, inc/_main.scss */
+/* line 165, inc/_main.scss */
 footer {
   width: 90%;
   margin: 0 auto 20px;
   text-align: center;
 }
-/* line 167, inc/_main.scss */
+/* line 170, inc/_main.scss */
 footer a, footer a:visited {
   font-size: 13px;
   padding: 4px 8px;
   color: #fff;
 }
-/* line 172, inc/_main.scss */
+/* line 175, inc/_main.scss */
 footer a:hover {
   color: #d4d4d4;
 }
-/* line 175, inc/_main.scss */
+/* line 178, inc/_main.scss */
 footer #to_top {
   position: absolute;
   right: 20px;
   color: #000;
 }
-/* line 179, inc/_main.scss */
+/* line 182, inc/_main.scss */
 footer #to_top:hover {
   color: #d4d4d4;
 }
-/* line 183, inc/_main.scss */
+/* line 186, inc/_main.scss */
 footer h3 {
   margin-bottom: 10px;
 }
-/* line 187, inc/_main.scss */
+/* line 190, inc/_main.scss */
 footer .round {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border: #f8f8f8 1px solid;
 }
-/* line 193, inc/_main.scss */
+/* line 196, inc/_main.scss */
 footer .twitter {
   background: #46C0FB;
   border: 1px solid #46c0fb;
 }
-/* line 197, inc/_main.scss */
+/* line 200, inc/_main.scss */
 footer .behance {
   background: #008CFF;
   border: 1px solid #008cff;
 }
-/* line 201, inc/_main.scss */
+/* line 204, inc/_main.scss */
 footer .linkedin {
   background: #0083A8;
   border: 1px solid #0083a8;
 }
-/* line 205, inc/_main.scss */
+/* line 208, inc/_main.scss */
 footer .googleplus {
   background: #DD4B39;
   border: 1px solid #dd4b39;
 }
-/* line 209, inc/_main.scss */
+/* line 212, inc/_main.scss */
 footer .github {
   background: #DADADA;
   border: 1px solid #dadada;
 }
-/* line 213, inc/_main.scss */
+/* line 216, inc/_main.scss */
 footer #share {
   width: 100%;
   text-align: center;
 }
-/* line 216, inc/_main.scss */
+/* line 219, inc/_main.scss */
 footer #share li {
   display: inline-block;
   margin: 6px 0px;
@@ -812,17 +817,91 @@ footer #share li {
 }
 @media print {
   /* line 2, inc/_print.scss */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  html {
+    width: 8.5in;
   }
 
-  /* line 5, inc/_print.scss */
+  /* line 6, inc/_print.scss */
+  body {
+    font-size: 10pt !important;
+    line-height: 1.8;
+    color: #000;
+    margin: 50px;
+  }
+
+  /* line 14, inc/_print.scss */
+  h3 {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+
+  /* line 19, inc/_print.scss */
+  a, a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* line 24, inc/_print.scss */
   p, ul {
     font-family: Palatino, Georgia, "Times New Roman", serif;
+    margin: 0;
   }
 
-  /* line 8, inc/_print.scss */
-  #share_menu, #to_top, aside, #global {
+  /* line 28, inc/_print.scss */
+  #share_menu, #to_top, aside, #global, header {
     display: none;
+  }
+
+  /* line 32, inc/_print.scss */
+  #print_header {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+
+  /* line 39, inc/_print.scss */
+  #content {
+    width: 85%;
+    float: right;
+  }
+
+  /* line 44, inc/_print.scss */
+  .left, .right {
+    margin: 0;
+  }
+
+  /* line 48, inc/_print.scss */
+  .left {
+    width: 17%;
+    float: left;
+    text-align: right;
+  }
+  /* line 52, inc/_print.scss */
+  .left h3 {
+    padding-right: 10px;
+  }
+
+  /* line 56, inc/_print.scss */
+  .right {
+    width: 83%;
+    float: right;
+  }
+  /* line 60, inc/_print.scss */
+  .right.skills ul {
+    float: left;
+    width: 48%;
+  }
+  /* line 65, inc/_print.scss */
+  .right .company {
+    float: left;
+  }
+  /* line 68, inc/_print.scss */
+  .right .position {
+    float: left;
+    width: 100%;
+  }
+  /* line 72, inc/_print.scss */
+  .right .date {
+    float: right;
   }
 }

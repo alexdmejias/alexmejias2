@@ -73,7 +73,7 @@ Template Name: Resume
 					</div>
 					<div class="section">
 						<div class="left">
-							<h2>Skills</h2>
+							<h2>Education</h2>
 						</div>
 						<div class="right">
 							<ul>
@@ -95,9 +95,10 @@ Template Name: Resume
 								<li>Wordpress (develpment)</li>
 								<li>PHP and MySQL</li>
 								<li>Git and SVN</li>
+								<li>HTML Emails</li>
 							</ul>
 							<ul>
-								<li>Working knowledge of Python and Ruby,<br />and Ruby on Rails, and CakePHP</li>
+								<li>Working knowledge of Python, Ruby and Ruby on Rails, and CakePHP</li>
 								<li>Microsoft Office</li>
 								<li>Photography</li>
 								<li>Mac, Linux and Windows platforms</li>

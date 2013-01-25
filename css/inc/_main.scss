@@ -71,6 +71,9 @@ header {
 		}
 	}
 } //end header
+#print_header {
+	display: none;
+}
 #content {
 	padding: 10px;
 	width: 90%;
