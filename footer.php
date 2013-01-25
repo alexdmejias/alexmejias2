@@ -12,7 +12,5 @@
 		</ul>
 	</div>
 </footer>
-
-
 </body>
 </html>
