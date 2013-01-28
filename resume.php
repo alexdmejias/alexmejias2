@@ -24,7 +24,7 @@ Template Name: Resume
 					<h3 class="date">Sept. '12 - Present</h3>
 					<h3 class="position">Junior Web Developer</h3>
 				</div>
-				<p class="description">Primarily worked maintaining <a href="http://mybanktracker.com">mybanktracker.com</a>, a bank news and reviews website, implementing new features and layouts using HTML, jQuery, Sass andCakePHP. Also involved in coding HTML newsletters and features for outside clients.</p>
+				<p class="description">Primarily worked maintaining <a href="http://mybanktracker.com">mybanktracker.com</a>, a bank news and reviews website, implementing new features and layouts using HTML, jQuery, Sass and CakePHP. Also involved in coding HTML newsletters and features for outside clients.</p>
 			</div>
 		</div>
 		<div class="section">
@@ -99,7 +99,7 @@ Template Name: Resume
 				<ul>
 					<li>HTML(5), Javascript, CSS(3) and Jquery</li>
 					<li>Adobe Photoshop, Illustrator and InDesign</li>
-					<li>Wordpress (develpment)</li>
+					<li>Wordpress (development)</li>
 					<li>PHP and MySQL</li>
 					<li>Git and SVN</li>
 					<li>HTML Emails</li>
