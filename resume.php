@@ -10,7 +10,7 @@ Template Name: Resume
 	<section id="content" class="resume">
 		<div class="section options">
 			<div class="right">
-				<a href="#">pdf format</a>
+				<a href="Alex.Mejias-Resume.pdf">pdf format</a>
 				<a href="javascript:window.Print(); return false;">print</a>
 			</div>
 		</div>
