@@ -8,7 +8,16 @@ Template Name: Resume
 <div id="cont"><!-- I think that this is useless -->
 	<?php get_sidebar(); ?>
 	<section id="content" class="resume">
+		<div class="section options">
+			<div class="right">
+				<a href="#">pdf format</a>
+				<a href="javascript:window.Print(); return false;">print</a>
+			</div>
+		</div>
 		<div class="section">
+			<div class="left">
+				<h2>Experience</h2>
+			</div>
 			<div class="right">
 				<div class="heading">
 					<h3 class="company">AD:60 - DUMBO, NY</h3>

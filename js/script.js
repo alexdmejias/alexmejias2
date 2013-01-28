@@ -1,5 +1,5 @@
 var testing = false;
-
+console.log('test');
 jQuery(document).ready(function($){
 
 	/* prepend menu icon */

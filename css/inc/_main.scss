@@ -82,19 +82,16 @@ header {
 	h1 {
 		margin: 5px 0;
 	}
-	h1 + p {
-		a {
-			background: $grey_dark;
-		}
-		a:hover {
-			background: $grey_light;
-		}
+	a {
+		background: $grey_dark;
+	}
+	a:hover {
+		background: $grey_light;
 	}
 	p {
 		img {
 			max-width: 96%;
 			height: auto;
-			// margin: 10px;
 			display: block;
 			padding: 10px;
 			box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -107,9 +104,11 @@ header {
 			padding-bottom: 20px;
 			overflow: hidden;
 			h2, h3 {
-				// font-family: "Helvetica Neue","Helvetica",Helvetica, Arial, sans-serif;
 				letter-spacing: 1px;
 				font-size: 14px;
+			}
+			&.options {
+				padding-bottom: 10px;
 			}
 			.left {
 				h2 {
@@ -153,7 +152,10 @@ header {
 			margin: 3px;
 			display: inline-block;
 			&:hover {background: $grey_dark;}
-			a {padding: 5px;}
+			a {
+				padding: 5px;
+				display: inline-block;
+			}
 			p {
 				margin: 0;
 				text-align: center;
