@@ -4,13 +4,15 @@
     }
 
     body {
-    	font-size: 10pt !important;
 		color: #000;
 		margin: 50px;
+		margin-top: 70px;
 		line-height: 1.35;
 	}
 
-	h3 {
+	h3, h2 {
+		letter-spacing: normal !important;
+    	font-size: 9.5pt !important;
 		font-family: $print_sans;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -20,11 +22,18 @@
 		color: #000;
 	}
 
-	p, ul {
+	p, ul, li {
+    	font-size: 9.5pt !important;
 		font-family: $print_serif;
 		margin: 0;
 	}
-	#share_menu, #to_top, aside, #global, header {
+	#share_menu,
+	#to_top,
+	aside,
+	#global,
+	header,
+	#content.resume .section .left #experience,
+	.section.options {
 		display: none;
 	}
 
@@ -54,7 +63,7 @@
 		}
 	}
 	.right {
-		width: 83%;
+		width: 82%;
 		float: right;
 		&.skills {
 			ul {

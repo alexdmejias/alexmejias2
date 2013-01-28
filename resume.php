@@ -10,13 +10,13 @@ Template Name: Resume
 	<section id="content" class="resume">
 		<div class="section options">
 			<div class="right">
-				<a href="Alex.Mejias-Resume.pdf">pdf format</a>
-				<a href="javascript:window.Print(); return false;">print</a>
+				<a href="/Alex.Mejias-Resume.pdf">pdf format</a>
+				<a href="javascript:window.print()">print</a>
 			</div>
 		</div>
 		<div class="section">
 			<div class="left">
-				<h2>Experience</h2>
+				<h2 id="experience">Experience</h2>
 			</div>
 			<div class="right">
 				<div class="heading">
