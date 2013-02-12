@@ -99,6 +99,13 @@ header {
 		}
 	}
 
+	.repo {
+		list-style-type: none;
+		.repo-updated {
+			margin-top: 0;
+		}
+	}
+
 	&.resume {
 		.section {
 			padding-bottom: 20px;

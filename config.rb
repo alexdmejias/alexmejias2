@@ -7,7 +7,7 @@ sass_dir = "css"
 images_dir = "img"
 javascripts_dir = "js"
 
-require 'ruby_gntp'
+# require 'ruby_gntp'
 require 'fileutils'
 
 # output_style = :expanded or :nested or :compact or :compressed
@@ -20,17 +20,17 @@ on_stylesheet_saved do |file|
     FileUtils.mv(file, File.dirname(file) + "/../" + File.basename(file))
   end
 
-  GNTP.notify({
-      :app_name => "Compass",
-      :title     => "#{File.basename(file)} updated!"
-   })
+  # GNTP.notify({
+      # :app_name => "Compass",
+      # :title     => "#{File.basename(file)} updated!"
+  # })
 end
 
 on_stylesheet_error do |file, message|
-  GNTP.notify({
-    :app_name => "FAIL",
-    :title    => "#{File.basename(file)} FAILED",
-    :text     => message
-  })
+  # GNTP.notify({
+    # :app_name => "FAIL",
+    # :title    => "#{File.basename(file)} FAILED",
+    # :text     => message
+  # })
 end
 
