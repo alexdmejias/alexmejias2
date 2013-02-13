@@ -5,7 +5,7 @@ Template Name: Projects
 ?>
 
 <?php get_header(); ?>
-<body><!-- template:Projects -->
+<!-- template:Projects -->
 	<div id="cont">
 		<div id="all_projects">
 			<?php $args = array(
