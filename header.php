@@ -10,6 +10,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
+<div id="wrapper">
 	<header>
 		<div id="header_content">
 			<h1><a href="<?php bloginfo('wpurl'); ?>">Alex Mejias</a></h1>

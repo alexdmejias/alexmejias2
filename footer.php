@@ -1,4 +1,5 @@
 <!-- </div>end #cont -->
+</div> <!-- end #wrapper -->
 <footer>
 	<a href="#header_content" id="to_top">Back to Top</a>
 	<div id="share_menu">

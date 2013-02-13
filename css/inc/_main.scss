@@ -1,6 +1,12 @@
+html, body, #wrapper { height: 100%; }
 body {
 	font-family: $sans_family;
+	background: #fff url(img/noise4.png) repeat center center;
 }
+
+#wrapper {height: auto; min-height: 100%;}
+
+#cont { padding-bottom: 124px; }
 
 h1, h2, h3, h4, h5, h6, b,strong {
 	font-weight: 700;
@@ -17,10 +23,6 @@ a {
 ul {
 	padding: 0;
 	margin: 0;
-}
-
-body {
-	background: #fff url(img/noise4.png) repeat center center;
 }
 
 header {
@@ -175,6 +177,10 @@ footer {
 	width: 90%;
 	margin: 0 auto 20px;
 	text-align: center;
+    position: relative;
+	margin-top: -124px;
+	height: 124px;
+	clear:both;
 
 	a, a:visited {
 		font-size: 13px;
