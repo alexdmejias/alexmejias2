@@ -16,6 +16,14 @@ Template Name: Resume
 		</div>
 		<div class="section">
 			<div class="left">
+				<h2 id="experience">Objective</h2>
+			</div>
+			<div class="right">
+				<p class="description">Build interfaces that are highly functional, attractive and accessible; while adhering to industry standards and using the latest and greatest technologies.</p>
+			</div>
+		</div>
+		<div class="section">
+			<div class="left">
 				<h2 id="experience">Experience</h2>
 			</div>
 			<div class="right">
