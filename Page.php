@@ -6,7 +6,7 @@
 	<?php if(is_page('blog') || is_page('blog-2')): ?>
 		this is the blog
 	<?php endif; ?>
-	<?php if(is_page('about'): ?>
+	<?php if(is_page('about')): ?>
 		<?php the_post();?>
 		<section id="content">
 			<h1 id="title"><?php wp_title("",true);?></h1>
