@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="cont"><!-- I think that this is useless -->
-	<section id="content">
 	<?php get_sidebar(); ?>
+	<section id="content">
 
 	<?php if(is_page('blog') || is_page('blog-2')): ?>
 		<?php query_posts( 'posts_per_page=5' ); ?>
@@ -13,9 +13,9 @@
 				</h1>
 			<?php endwhile; ?>
 		<?php endif ?>
-	<?php endif; ?>
+	<?php //endif; ?>
 
-	<?php if(is_page('about')): ?>
+	<?php elseif(is_page('about')): ?>
 		<?php the_post();?>
 		<h1 id="title"><?php wp_title("",true);?></h1>
 		<?php the_content(''); ?>
@@ -37,7 +37,15 @@
 				<?php endfor; ?>
 			</ul>
 		<?php endif; ?>
-	<?php endif; ?>
+	<?php else: ?>
+		<?php if(have_posts()): ?>
+			<?php while(have_posts()): ?>
+				<?php the_post(); ?>
+				<h1 id="title"><?php the_title(); ?></h1>
+				<?php the_content(); ?>
+			<?php endwhile; ?>
+		<?php endif; ?>
+	<?php endif ?>
 	</section>
 </div>
 <?php get_footer(); ?>
