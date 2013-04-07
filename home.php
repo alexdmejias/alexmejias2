@@ -1,17 +1,21 @@
 <?php get_header(); ?>
-this is the home.php file
 	<div id="cont">
-		<?php get_sidebar(); ?>
-		<?php if(have_posts()): ?>
-		<?php while (have_posts()): the_post();?>
-		<div id="right">
-			<div id="summary">
-				<h1><?php wp_title();?></h1>
-				<?php the_content(''); ?>
-				<?php endwhile; ?>
-			<?php endif; ?>
-			</div>
-			<div id="content"></div>
-<!--===================END OF ACTUAL SECTIONS ===================-->
+		<div id="all_projects">
+			<?php $args = array(
+			    'child_of' => 2,
+			    'sort_column' => 'menu_order'
+			); ?>
+			<?php $pages = get_pages($args); ?>
+			<ul>
+			    <?php foreach ($pages as $page): ?>
+			        <li>
+			        	<a href="<?php echo get_page_link($page->ID) ?>">
+			            	<p><?php echo $page->post_title; ?></p>
+			            	<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
+			            </a>
+			        </li>
+			    <?php endforeach; ?>
+			</ul>
 		</div>
+	</div><!-- end of #cont -->
 <?php get_footer(); ?>
