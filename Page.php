@@ -5,7 +5,13 @@ this is the page.php file
 	<?php get_sidebar(); ?>
 
 	<?php if(is_page('blog') || is_page('blog-2')): ?>
-		<?php //query_posts() ?>
+		<?php query_posts( 'posts_per_page=5' ); ?>
+		<?php if(have_posts()): ?>
+			<?php while(have_posts()): ?>
+				<?php the_post(); ?>
+				<h1><?php the_title(); ?></h1>
+			<?php endwhile; ?>
+		<?php endif ?>
 	<?php endif; ?>
 
 	<?php if(is_page('about')): ?>
