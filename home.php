@@ -1,11 +1,4 @@
-<?php
-/*
-Template Name: Home
-*/
-?>
-
 <?php get_header(); ?>
-<!-- <body>template: Home -->
 	<div id="cont">
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>
