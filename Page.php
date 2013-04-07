@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-this is the page.php file
 <div id="cont"><!-- I think that this is useless -->
 	<section id="content">
 	<?php get_sidebar(); ?>
@@ -9,7 +8,9 @@ this is the page.php file
 		<?php if(have_posts()): ?>
 			<?php while(have_posts()): ?>
 				<?php the_post(); ?>
-				<h1><?php the_title(); ?></h1>
+				<h1>
+					<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a>
+				</h1>
 			<?php endwhile; ?>
 		<?php endif ?>
 	<?php endif; ?>
