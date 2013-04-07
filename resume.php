@@ -1,10 +1,4 @@
-<?php
-/*
-Template Name: Resume
-*/
-?>
 <?php get_header(); ?>
-<!-- index.php -->
 <div id="cont"><!-- I think that this is useless -->
 	<?php get_sidebar(); ?>
 	<section id="content" class="resume">

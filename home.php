@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+this is the home.php file
 	<div id="cont">
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>

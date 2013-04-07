@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Projects
-*/
-?>
-
 <?php get_header(); ?>
 <!-- template:Projects -->
 	<div id="cont">

@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<body><!-- index.php -->
+<body>
 	<div id="cont"><!-- I think that this is useless -->
+this is index.php file
 		<?php get_sidebar(); ?>
 		<?php if(have_posts()): ?>
 			<?php while (have_posts()): the_post();?>
