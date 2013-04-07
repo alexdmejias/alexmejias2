@@ -13,7 +13,6 @@
 				</h1>
 			<?php endwhile; ?>
 		<?php endif ?>
-	<?php //endif; ?>
 
 	<?php elseif(is_page('about')): ?>
 		<?php the_post();?>
@@ -37,6 +36,7 @@
 				<?php endfor; ?>
 			</ul>
 		<?php endif; ?>
+
 	<?php else: ?>
 		<?php if(have_posts()): ?>
 			<?php while(have_posts()): ?>
