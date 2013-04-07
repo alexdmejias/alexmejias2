@@ -5,7 +5,7 @@ this is the page.php file
 	<?php get_sidebar(); ?>
 
 	<?php if(is_page('blog') || is_page('blog-2')): ?>
-		blog psots will go here
+		<?php //query_posts() ?>
 	<?php endif; ?>
 
 	<?php if(is_page('about')): ?>
