@@ -23,7 +23,7 @@
 				<nav>
 					<ul id="global-nav">
 						<li><a href="<?php bloginfo('wpurl'); ?>">Portfolio</a></li>
-						<li><a href="/about/">About</a></li>
+						<!-- <li><a href="/about/">About</a></li> -->
 						<li><a href="/resume/">Resume</a></li>
 						<li><a href="/blog/">Blog</a></li>
 					</ul>

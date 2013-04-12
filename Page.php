@@ -8,16 +8,21 @@
 		<?php if(have_posts()): ?>
 			<?php while(have_posts()): ?>
 				<?php the_post(); ?>
-				<h1>
-					<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a>
-				</h1>
+				<h2>
+					<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> - <?php the_date(); ?></a>
+				</h2>
+				<?php wp_list_categories('title_li=&style=none'); ?>
+				<p><?php the_excerpt(); ?></p>
+				<?php the_tags(); ?>
 			<?php endwhile; ?>
 		<?php endif ?>
 
 	<?php elseif(is_page('about')): ?>
 		<?php the_post();?>
-		<h1 id="title"><?php wp_title("",true);?></h1>
-		<?php the_content(''); ?>
+		<article>
+			<h1 id="title"><?php wp_title("",true);?></h1>
+			<?php the_content(''); ?>
+		</article>
 		<?php $projects = get_github_activity(4); ?>
 		<h2>Some recent Github activity</h2>
 		<?php if(!empty($projects)): ?>
@@ -41,8 +46,10 @@
 		<?php if(have_posts()): ?>
 			<?php while(have_posts()): ?>
 				<?php the_post(); ?>
-				<h1 id="title"><?php the_title(); ?></h1>
-				<?php the_content(); ?>
+				<article>
+					<h1 id="title"><?php the_title(); ?></h1>
+					<?php the_content(); ?>
+				</article>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	<?php endif ?>
