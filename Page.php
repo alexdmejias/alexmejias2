@@ -11,7 +11,7 @@
 				<h2>
 					<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> - <?php the_date(); ?></a>
 				</h2>
-				<?php wp_list_categories('title_li=&style=none'); ?>
+				<?php the_category(' '); ?>
 				<p><?php the_excerpt(); ?></p>
 				<?php the_tags(); ?>
 			<?php endwhile; ?>

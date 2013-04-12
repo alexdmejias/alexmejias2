@@ -8,7 +8,10 @@
 				<h2>
 					<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> - <?php the_date(); ?></a>
 				</h2>
-				<?php wp_list_categories('title_li=&style=none'); ?>
+				<?php if(has_post_thumbnail()): ?>
+					<?php the_post_thumbnail(' '); ?>
+				<?php endif; ?>
+				<p>Categories: <?php the_category(' '); ?></p>
 				<?php the_tags(); ?>
 				<p><?php the_content(); ?></p>
 			<?php endwhile; ?>
