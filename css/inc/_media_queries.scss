@@ -1,11 +1,4 @@
-@mixin debug($message, $color: rgba(255,255,0, 0.9) ){ &::before{ content: $message; font-weight: bold; display: block; text-align: center; background: #{$color}; position: absolute; right: 0; left: 0; top: 0; z-index: 99; } }
-
 @media screen and (max-width: 480px){
-	body{
-		@if($DEBUG == true){
-			@include debug("max 480", "pink");
-		}
-	}
 	#content {
 		p {
 			img {
@@ -18,12 +11,6 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 720px){
-	body{
-		@if($DEBUG == true){
-			@include debug("min 481 max 720", "blue");
-		}
-	}
-
 	aside {
 		nav {
 			width: 95%;
@@ -57,16 +44,11 @@
  					}
 				}
 			}
-			}
+		}
 	}
 }
 
 @media screen and (min-width: 637px){
-	body{
-		@if($DEBUG == true){
-			@include debug("min 637", "yellow");
-		}
-	}
 	#content.resume {
 		.section {
 			.right {
@@ -82,11 +64,6 @@
 }
 
 @media screen and (min-width: 721px){
-	body{
-		@if($DEBUG == true){
-			@include debug("min 721", "green");
-		}
-	}
 	header {
 		height: 90px;
 		text-align: left;
@@ -103,7 +80,6 @@
 			}
 		}
 		#global {
-			// margin-left: 250px;
 			margin-top: 17px;
 		}
 	}
@@ -162,11 +138,6 @@
 }
 
 @media screen and (min-width: 851px){
-	body{
-		@if($DEBUG == true){
-			@include debug("min 851", "lightblue");
-		}
-	}
 	#content.resume {
 		width: 55%;
 		padding-left: 10px;
@@ -190,4 +161,7 @@
 			}
 		}
 	}
+	// #content.blog_post {
+		// width: 60%;
+	// }
 }

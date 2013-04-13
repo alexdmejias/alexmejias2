@@ -1,0 +1,21 @@
+@mixin debug($message, $color: rgba(255,255,0, 0.9) ){ body::before{ content: $message; font-weight: bold; display: block; text-align: center; background: #{$color}; position: absolute; right: 0; left: 0; top: 0; z-index: 99; } }
+
+@media screen and (max-width: 480px){
+	@include debug("max 480", "pink");
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px){
+	@include debug("min 481 max 720", "blue");
+}
+@media screen and (min-width: 637px){
+	@include debug("min 637", "yellow");
+}
+
+
+@media screen and (min-width: 721px){
+	@include debug("min 721", "green");
+}
+
+@media screen and (min-width: 851px){
+	@include debug("min 851", "lightblue");
+}
