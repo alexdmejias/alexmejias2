@@ -11,6 +11,7 @@ javascripts_dir = "js"
 require 'fileutils'
 
 # output_style = :expanded or :nested or :compact or :compressed
+# output_style = :expanded
 output_style = :compressed
 
 # http://css-tricks.com/compass-compiling-and-wordpress-themes/
