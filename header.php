@@ -16,7 +16,7 @@
 			<h1><a href="<?php bloginfo('wpurl'); ?>">Alex Mejias</a></h1>
 			<p class="contact_info">
 				<a href="tel:+1-516-784-6801">(516) 784-6801</a>
-				<a href="mailto:alexis@alexismejias.com">alexis@alexismejias.com</a>
+				<a href="mailto:alme1304@gmail.com">alme1304@gmail.com</a>
 			</p>
 		</div>
 			<div id="global">

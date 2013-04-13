@@ -7,9 +7,6 @@
 		<ul id="share">
 			<li><a href="https://twitter.com/alme1304" class="round twitter">twitter</a></li>
 			<li><a href="https://github.com/amejias101" class="round github">github</a></li>
-			<li><a href="http://www.behance.net/aleximejias" class="round behance">behance</a></li>
-			<li><a href="https://plus.google.com/u/0/117004785307085745469/posts" class="round googleplus">googleplus</a></li>
-			<li><a href="http://www.linkedin.com/pub/alex-mejias/54/987/361" class="round linkedin">linkedin</a></li>
 		</ul>
 	</div>
 </footer>
@@ -39,7 +36,7 @@ jQuery(document).ready(function($){
 			$('header p a').text('cellphone').next().text('email');
 		}
 		else if(win_size>=481){
-			$('header p a').text('(516) 784-6801').next().text('alexis@alexismejias.com');
+			$('header p a').text('(516) 784-6801').next().text('alme1304@gmail.com');
 		}
 	});
 });
