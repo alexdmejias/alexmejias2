@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-<div id="cont"><!-- I think that this is useless -->
+<div id="cont">
 	<?php get_sidebar(); ?>
-	<section id="content">
+	<section id="content" class="narrow_main">
 		<?php if(have_posts()): ?>
 			<?php while(have_posts()): ?>
 				<?php the_post(); ?>
