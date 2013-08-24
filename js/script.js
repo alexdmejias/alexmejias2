@@ -1,5 +1,4 @@
 var testing = false;
-console.log('test');
 jQuery(document).ready(function($){
 
 	/* prepend menu icon */
@@ -9,7 +8,6 @@ jQuery(document).ready(function($){
 		$("#projects").slideToggle();
 		$(this).toggleClass("active");
 	});
-
 
 	if(testing) {
 		$(window).on('resize load',function() {
@@ -26,14 +24,9 @@ jQuery(document).ready(function($){
 			$('header p a').text('cellphone').next().text('email');
 		}
 		else if(win_size>=481){
-			$('header p a').text('(516) 784-6801').next().text('alexis@alexismejias.com');
+			$('header p a').text('(516) 784-6801').next().text('alexdmejias@gmail.com');
 		}
 
 
 	});
-
-
-
-
-
 });

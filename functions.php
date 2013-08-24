@@ -34,3 +34,9 @@ function get_github_activity($how_many = 3) {
 		return $data;
 	}
 }
+
+function register_header_nav() {
+	register_nav_menu('header_menu', 'Header Menu');
+}
+
+add_action('init', 'register_header_nav');

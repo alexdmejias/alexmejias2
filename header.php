@@ -22,10 +22,8 @@
 			<div id="global">
 				<nav>
 					<ul id="global-nav">
-						<li><a href="<?php bloginfo('wpurl'); ?>">Portfolio</a></li>
-						<li><a href="/about/">About</a></li>
+						<?php wp_nav_menu( array( 'theme_location' => 'header_menu' ) ); ?>
 						<!-- <li><a href="/resume/">Resume</a></li> -->
-						<li><a href="/blog/">Blog</a></li>
 					</ul>
 				</nav>
 			</div>

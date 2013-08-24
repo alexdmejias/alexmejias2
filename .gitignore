@@ -4,3 +4,4 @@ css/inc/*.css
 sftp-config.json
 /.sass-cache
 OLD/
+.DS_Store

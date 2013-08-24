@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 			$('header p a').text('cellphone').next().text('email');
 		}
 		else if(win_size>=481){
-			$('header p a').text('(516) 784-6801').next().text('alme1304@gmail.com');
+			$('header p a').text('(516) 784 - 6801').next().text('alexdmejias@gmail.com');
 		}
 	});
 });
